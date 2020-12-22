@@ -62,6 +62,9 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .cat {
+                width: 500px;
+            }
         </style>
     </head>
     <body>
@@ -79,7 +82,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <img class="cat" src="https://scontent.ftpe10-1.fna.fbcdn.net/v/t1.0-9/83070561_2461848317412654_5168621918122672128_o.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_ohc=K19EeHAbgvsAX_-Ol39&_nc_ht=scontent.ftpe10-1.fna&oh=17a7943321f469cfac85ddbb90a343d2&oe=6008D87E" alt="">
+                    likecat
                 </div>
 
                 <div class="links">
