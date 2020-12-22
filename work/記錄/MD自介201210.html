@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neko</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <style>
+        body{
+            background:url()no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+            background-position:bottom;
+            width:100%;
+            margin: 0 auto;
+            color:#5b5e61;
+        }
+        h1,h2,h3,h4{
+            text-align: center;
+        }
+        h2{
+            border-top: solid 2px  #8E9297;
+            /* margin:50px 0; */
+            padding: 25px 0;
+        }
+        ul{
+            padding: 0%;
+        }
+        header{
+            width:80%;
+            margin: 0 auto;
+            /* flex-direction:row; */
+            /* flex-wrap:wrap; */
+            display:flex;
+            justify-content:center;
+            align-items: center
+        }
+        nav ul{
+            width: 50%;
+            margin: 0 auto;
+            display:flex;
+            justify-content:space-around;
+        }
+        main{
+            /* border-top:2px solid #8E9297 ; */
+            width:80%;
+            margin: 0 auto;
+        }
+        footer{
+            border-top:2px solid #8E9297 ;
+            width:80%;
+            margin: 0 auto;
+        }
+        .top{
+            display:flex;
+            flex-direction: row-reverse;
+        }
+        .mdhs{
+            flex-direction:row;
+            flex-wrap:wrap;
+            display:flex;
+            justify-content:center;
+            align-items: center
+        }
+        .mdhs2{
+            width: 400px;
+            height: 580px;
+            background:url(./photo/ass\ ssin\ hs.jpg);
+            background-size: 100%
+        }
+        .mdneme{
+            width: 200px;
+            height: 200px;
+            margin-left:80px;
+        }
+        .hs2{
+            margin:50px 0 0;
+        }
+        .hs{
+            width: 200px;
+            height: 200px;
+            background:url(./photo/headshot.png);
+            background-size:200px 200px;
+            border-radius: 50%;
+        }
+        .photo{
+            flex-direction:row;
+            display:flex;
+            justify-content: space-around;
+            /* margin: 50px 0; */
+        }
+        .photo img{
+            width:100%;
+        }
+        a:hover{opacity: 0.8;}
+        a{text-decoration:none;}
+        a:link{color:#5b5e61;}
+        a:visited{color:#5b5e61;}
+        ul li{
+            list-style:none;
+            margin:5px;
+        }
+
+        span{
+            display:inline-block;
+        }
+        .fb{
+            background:url(./icon/FB.png) no-repeat;
+           }
+        .ig{
+            background:url(./icon/IG.png) no-repeat;
+            }
+        .ti{
+            background:url(./icon/twitter.png) no-repeat;
+            }
+        .icon{
+            margin-left:35px;
+            margin-top:5px;
+            }
+        .fb,.ig,.ti{
+            width: 30px;
+            height: 30px;
+            margin-top:5px;
+            background-size:30px 30px;
+            background-position: 0 0;
+            }
+        .t1{
+            flex-direction:row;
+            display:flex;
+            justify-content:space-around;
+            padding: 40px 0;
+            
+        }
+        .t2{
+            margin-top:5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hs2">
+            <span class="hs"></span>
+            <h1>梵貓</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#h2-1">Model基本資訊</a></li>
+            <li><a href="#h2-2">作品</a></li>
+            <li><a href="#h2-3">合作資訊表單</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h2 id="h2-1">Model基本資訊</h2>
+            <div class="mdhs">
+                <span class="mdhs2"></span>
+                <table class="mdneme">
+                    <tr>
+                        <th>身高</th>
+                        <td>162</td>
+                    </tr>
+                    <tr>
+                        <th>體重</th>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <th>資歷</th>
+                        <td>7年</td>
+                    </tr>
+                    <tr>
+                        <th>合作</th>
+                        <td>互惠、收費</td>
+                    </tr>
+                    <tr>
+                        <th>造型</th>
+                        <td>可自妝髮、服裝</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="top"><a href="#">回選單</a></div>
+        </div>
+        <div>
+            <h2 id="h2-2">作品</h2>
+            <ul class="photo">
+                <li>
+                    <a href="https://www.facebook.com/media/set/?set=a.1663685410562286&type=3"target="_blank">
+                        <img src="./photo/Witch castle.jpg" alt="">
+                    </a>
+                    <h3>魔女之城</h3>
+                </li>
+                <li>
+                    <a href="javascript:;"target="_blank">
+                        <img src="./photo/black Witch.jpg" alt="">
+                    </a>
+                    <h3>羊角魔女</h3>
+                </li>
+                
+                <li>
+                    <a href="javascript:;"target="_blank">
+                        <img src="./photo/ass ssin.jpg" alt="">
+                    </a>
+                    <h3>刺客</h3>
+                </li>
+            </ul>
+            <ul class="photo">
+                <li>
+                    <a href="javascript:;"target="_blank">
+                        <img src="./photo/fox.jpg" alt="">
+                    </a>
+                    <h3>雙狐姊妹</h3>
+                </li>
+                
+                <li>
+                    <a href="javascript:;"target="_blank">
+                        <img src="./photo/akujyo.jpg" alt="">
+                    </a>
+                    <h3>惡女</h3>
+                </li>
+                
+                <li>
+                    <a href="javascript:;"target="_blank">
+                        <img src="./photo/ghost.jpg" alt="">
+                    </a>
+                    <h3>日月鬼姬</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="top"><a href="#">回選單</a></div>
+        <div>
+            <h2 id="h2-3">合作資訊表單</h2>
+            <form class="Cooperation" action="text/plain">
+                <table >
+                    <tr>
+                        <td>姓名/暱稱</td>
+                        <td><input type="text" name="surname"><br></td>
+                    </tr>    
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email"name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>性別</td>
+                        <td>
+                            <input type="radio"name="gender"value="age1">男生
+                            <input type="radio"name="gender"value="age2">女生
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>攝影/Moble</td>
+                        <td>
+                            <input type="radio"name=""value="age1">攝影
+                            <input type="radio"name=""value="age2">Model
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>合作方式</td>
+                        <td>
+                            <input type="radio"name="Cooperation"value="age1">互惠
+                            <input type="radio"name="Cooperation"value="age2">收費
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>合作項目</td>
+                        <td>
+                            <select name="project" id="">
+                            <optgroup label="棚拍">
+                                <option value="棚拍/主題創作">棚拍/主題創作</option>
+                                <option value="棚拍/時裝">棚拍/時裝</option>
+                                <option value="棚拍/商品">棚拍/商品</option>
+                            </optgroup>
+                            <optgroup label="旅拍"">
+                                <option value="旅拍/主題創作">旅拍/主題創作</option>
+                                <option value="旅拍/時裝">旅拍/時裝</option>
+                                <option value="旅拍/商品">旅拍/商品</option>
+                            </optgroup>
+                                <optgroup label="外拍">
+                                <option value="外拍/主題創作">外拍/主題創作</option>
+                                <option value="外拍/時裝">外拍/時裝</option>
+                                <option value="外拍/商品">外拍/商品</option>
+                            </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>合作內容</td>
+                        <td><textarea name="content" id="" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit">送出</button>
+                            <button type="reset">重設</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="top"><a href="#">回選單</a></div>
+    </main>
+    <footer class="t1">
+        <div>
+            <ul class="t2">
+                <li>聯絡方式</li>
+                <li>電話</li>
+                <li>0903126767</li>
+                <li>email</li>
+                <li>likecat8011@gmail.com</li>
+            </ul>
+        </div>
+        <div>
+            <span>個人社群網站</span>
+            <div class="fb">
+                <span class="icon">FB</span>
+            </div>
+            <div class="ig">
+                <span class="icon">IG</span>
+            </div>
+            <div class="ti">
+                <span class="icon">twitter</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

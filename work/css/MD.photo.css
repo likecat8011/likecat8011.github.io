@@ -1,0 +1,11 @@
+.photo{
+    width:90%;
+    margin:0 auto;
+    flex-direction:row;
+    display:flex;
+    justify-content: space-around;
+    /* margin: 50px 0; */
+}
+.photo img{
+    width:100%;
+}
